@@ -1,0 +1,306 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>427</width>
+    <height>253</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QPushButton" name="btn_start">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>180</y>
+      <width>381</width>
+      <height>51</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>추출 시작</string>
+    </property>
+   </widget>
+   <widget class="QPushButton" name="btn_login">
+    <property name="geometry">
+     <rect>
+      <x>290</x>
+      <y>20</y>
+      <width>61</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>로그인</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb_addr1">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>110</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>서울특별시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>부산광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>대구광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>인천광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>광주광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>대전광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>울산광역시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>세종특별자치시</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>경기도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>강원특별자치도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>충청북도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>충청남도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>전라북도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>전라남도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>경상북도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>경상남도</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>제주특별자치도</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QLabel" name="label_3">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>85</y>
+      <width>161</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>지방자치단체코드</string>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb_uptae1">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>110</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+    <item>
+     <property name="text">
+      <string>건강</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>동물</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>문화</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>생활</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>식품</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>자원환경</string>
+     </property>
+    </item>
+    <item>
+     <property name="text">
+      <string>기타</string>
+     </property>
+    </item>
+   </widget>
+   <widget class="QComboBox" name="cb_addr2">
+    <property name="geometry">
+     <rect>
+      <x>20</x>
+      <y>140</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>21</y>
+      <width>56</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>아이디</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_id">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>20</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_2">
+    <property name="geometry">
+     <rect>
+      <x>50</x>
+      <y>41</y>
+      <width>56</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <pointsize>9</pointsize>
+     </font>
+    </property>
+    <property name="text">
+     <string>비밀번호</string>
+    </property>
+    <property name="alignment">
+     <set>Qt::AlignRight|Qt::AlignTrailing|Qt::AlignVCenter</set>
+    </property>
+   </widget>
+   <widget class="QComboBox" name="cb_uptae2">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>140</y>
+      <width>181</width>
+      <height>22</height>
+     </rect>
+    </property>
+   </widget>
+   <widget class="QLabel" name="label_4">
+    <property name="geometry">
+     <rect>
+      <x>220</x>
+      <y>85</y>
+      <width>131</width>
+      <height>21</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>업종코드</string>
+    </property>
+   </widget>
+   <widget class="QLineEdit" name="input_pwd">
+    <property name="geometry">
+     <rect>
+      <x>110</x>
+      <y>40</y>
+      <width>171</width>
+      <height>20</height>
+     </rect>
+    </property>
+   </widget>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>427</width>
+     <height>21</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
